@@ -1,7 +1,7 @@
 {
   "name": "level-throttle",
   "description": "A key-based throttling mechanism for levelup-compliant data stores.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "jshintConfig": {
     "expr": true,
     "laxbreak": true
