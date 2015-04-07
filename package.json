@@ -1,0 +1,33 @@
+{
+  "name": "level-throttle",
+  "description": "A key-based throttling mechanism for levelup-compliant data stores.",
+  "version": "1.0.0",
+  "jshintConfig": {
+    "expr": true,
+    "laxbreak": true
+  },
+  "scripts": {
+    "test": "mocha --no-colors --recursive --reporter spec test 2>&1",
+    "colortest": "mocha --recursive --reporter spec test",
+    "lint": "jshint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nowsecure/level-throttle"
+  },
+  "bugs": {
+    "url": "https://github.com/nowsecure/level-throttle"
+  },
+  "dependencies": {
+    "level-key": "1.2.1"
+  },
+  "devDependencies": {
+    "async": "0.9.0",
+    "jshint": "^2.6.0",
+    "levelup": "0.19.0",
+    "lodash": "3.6.0",
+    "memdown": "1.0.0",
+    "mocha": "2.1.0",
+    "should": "4.6.0"
+  }
+}
