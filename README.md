@@ -1,12 +1,17 @@
 level-throttle
 ==============
+
 `level-throttle` is a dead-simple [token-bucket][]-based throttling mechanism
-built on `levelup`. It was initially designed to provide throttled access
+built on `levelup`.
+
+[![Build Status](https://travis-ci.org/nowsecure/level-throttle.svg)](https://travis-ci.org/nowsecure/level-throttle)
+
+`level-throttle` was initially designed to provide throttled access
 control to API endpoints, but can in fact be used to regulate access to any
 resource.
 
 `level-throttle` works by simply counting the number of "tokens" remaining in
-the "bucket" associated with an aribtrarily-specified "throttle key". Each time
+the "bucket" associated with an arbitrarily-specified "throttle key". Each time
 a throttled resource is accessed, a token is removed from the associated
 bucket. If the number of tokens in the bucket reaches zero, the consumer has
 exhaused access to the throttled resource. The bucket is automatically refilled
