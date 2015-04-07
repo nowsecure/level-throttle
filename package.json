@@ -1,7 +1,7 @@
 {
   "name": "level-throttle",
   "description": "A key-based throttling mechanism for levelup-compliant data stores.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "jshintConfig": {
     "expr": true,
     "laxbreak": true
@@ -29,5 +29,6 @@
     "memdown": "1.0.0",
     "mocha": "2.1.0",
     "should": "4.6.0"
-  }
+  },
+  "license" : "MIT"
 }
